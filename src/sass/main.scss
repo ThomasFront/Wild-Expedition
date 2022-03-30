@@ -180,7 +180,7 @@ body {
 
 .header {
 	position: relative;
-	background-image: url('../img/bg-small.jpg');
+	background-image: url('../../dist/img/bg-small.jpg');
 	background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
@@ -277,7 +277,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	background-image: url('../img/bg-img-small.jpg');
+	background-image: url('../../dist/img/bg-img-small.jpg');
 	height: 30vh;
 	width: 100%;
 	background-size: cover;
@@ -347,15 +347,15 @@ body {
 
 	&__card--first {
 		background-position: 0 0;
-		background-image: url('../img/first-man-small.jpg');
+		background-image: url('../../dist/img/first-man-small.jpg');
 	}
 
 	&__card--second {
-		background-image: url('../img/second-man-small.jpg');
+		background-image: url('../../dist/img/second-man-small.jpg');
 	}
 
 	&__card--third {
-		background-image: url('../img/last-man-small.jpg');
+		background-image: url('../../dist/img/last-man-small.jpg');
 	}
 
 	&__card-description {
@@ -534,7 +534,7 @@ body {
 		}
 	}
 	.header {
-		background-image: url('../img/bg-big.jpg');
+		background-image: url('../../dist/img/bg-big.jpg');
 		&__h1 {
 			font-size: 8rem;
 		}
@@ -554,7 +554,7 @@ body {
 		}
 	}
 	.background {
-		background-image: url('../img/bg-img-big.jpg');
+		background-image: url('../../dist/img/bg-img-big.jpg');
 		&__text {
 			font-size: 2.4rem;
 		}
