@@ -1,4 +1,5 @@
 @use './utilities/colors' as *;
+@use './utilities/bounceanim' as *;
 
 *,
 *::before,
@@ -187,6 +188,15 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	z-index: -1;
+
+	&__arrow {
+		position: absolute;
+		bottom: 1em;
+		right: 1em;
+		font-size: 3rem;
+		z-index: 4000;
+		color: $details;
+	}
 
 	&__shadow {
 		position: absolute;
@@ -463,6 +473,13 @@ body {
 		color: $details;
 	}
 }
+
+// BOUNCE ANIM
+
+.bounce-top {
+	animation: bounce-top 2s ease-in-out infinite forwards;
+}
+
 // ========================================
 
 // MEDIA
@@ -595,6 +612,11 @@ body {
 	.aboutus {
 		&__description {
 			font-size: 2.5rem;
+		}
+	}
+	.header {
+		&__arrow {
+			font-size: 4rem;
 		}
 	}
 }
